@@ -51,7 +51,7 @@ const DisasterReportForm = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
 
-    const cloudinaryURL = 'https://api.cloudinary.com/v1_1/dojr7jo0k/image/upload';
+    const cloudinaryURL = ' Your Cloudinary URL';
     const formDataCloudinary = new FormData();
     formDataCloudinary.append('file', formData.photos);
     formDataCloudinary.append('upload_preset', 'ml_default');
