@@ -8,4 +8,6 @@ Need to have installed gitbash (if windows)
 
 Initially, edit the code by adding the your cloudinary url in "form.js" component
 
+cd into the directory and run "npm install" to install all dependencies.
+
 Then run "npm start" in terminal.
